@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+    body {
+        background: rgb(151, 30, 30);
+
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 900px;
+        background: rgb(35, 126, 27);
+        padding: 20px;
+
+    }
+
+    .container h1 {
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .container p {
+        line-height: 25px;
+    }
+
+    .text-titulo strong {
+        font-weight: normal;
+    }
+
+    .container ul {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .container ul li {
+        padding: 20px;
+
+    }
+
+    .container ul li a {
+        text-decoration: none;
+        font-size: 22px;
+        color: brown;
+        /*cor textp*/
+
+    }
+
+    .container ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .form-control {
+        padding-top: 5px;
+    }
+
+    .form-control input {
+        border: 2px solid rgb(131, 155, 131);
+        padding: 3px;
+        margin-top: 5px;
+        outline: none;
+        border-radius: 10px;
+    }
+
+    .form-control button {
+        background: red;
+        border: 0;
+        color: #ffff;
+        border-radius: 15px;
+
+    }
+
+    /*tabela produto*/
+
+    .lista {
+        border: 1px solid rgb(187, 172, 172);
+        max-width: 700px;
+        margin: 20px auto;
+    }
+
+    .lista table {
+        width: 100%;
+        text-align: center;
+    }
+
+    .trPrincipal {
+        background: red;
+        color: #ffff;
+    }
+
+    .trPrime {
+        background: blue;
+        color: #ffff;
+    }
+
+    .trFinal {
+        background: green;
+        color: #ffff;
+    }
