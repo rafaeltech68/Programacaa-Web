@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(155, 37, 37);
+}
+.box {
+    background: rgb(50, 207, 207);
+    border: 3px solid rgb(50, 207, 207);
+    margin: 15% 35% 5% 35%;
+    padding: 200px 30px 30px 30px;   
+    border-radius: 25px; 
+    border-color: rgb(11, 160, 110);
+}
+h1 {
+     margin-top: -180px;
+     margin-left: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 35px;
+     text-align: center;
+     
+
+}
+.form-control {
+
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px; ;
+}
+
+.form-control input[type="text"]
+{
+    margin-top: 15px;
+    padding: 6px 180px;
+    padding-left: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    
+}
+
+.form-control input[type="password"] {
+    margin-top: 5px;
+    margin-left: 12px;
+    padding: 6px 180px;
+    padding-left: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+
+}
+
+button {
+    background: rgb(6, 38, 182);
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 200px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}

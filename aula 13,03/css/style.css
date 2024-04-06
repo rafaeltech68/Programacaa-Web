@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 10% 40% 5% 35%;
+    padding: 50px 6px 10px 80px;
+    background: rgb(50, 207, 207);
+}
+
+.form-control {
+    margin: 10px;
+    padding-right: 100px;
+}
+
+.form-control input[type="text"] {
+    padding: 5px ;
+    margin-left: 19px;
+    border: 2px solid rgb(82, 127, 168);
+}
+.form-control input[type="password"] {
+    padding: 5px 6px;
+    margin-left: 20px;
+    border: 2px solid rgb(82, 127, 168);
+}
+
+.form-control input[type="tel"] {
+    padding: 5px ;
+    margin-left: 5px;
+    border: 2px solid rgb(82, 127, 168);
+}
+.form-control h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: rgb(229, 255, 0);
+    color: rgb(182, 3, 3);
+    border: 1 solid black;
+    padding: 8px;
+    cursor: pointer;
+}
