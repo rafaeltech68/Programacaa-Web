@@ -1,0 +1,39 @@
+* {
+    padding: ;
+    margin: 0;
+}
+
+#MAIN {
+    padding: 200px;
+    
+}
+
+fieldset {
+    padding: 10px ;
+}
+
+fieldset legend {
+    padding: 5px;
+}
+
+.form-control {
+    margin: 10px;
+}
+
+.form-control label {
+    text-transform: uppercase;
+}
+
+.enviar {
+    background: rebeccapurple;
+    color: #ffff;
+    padding: 10px;
+    border: 0;
+}
+
+.limpar {
+    background: rgb(253, 148, 148);
+    color: #ffff;
+    padding: 10px;
+    border: 0;
+}

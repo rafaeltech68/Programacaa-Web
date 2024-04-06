@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Formulário</h1>
+        <form>
+            <fieldset>
+                <legend>Cadastro</legend>
+                <div class="Form-control"></div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"/>
+                </div>
+                
+                <div class="Form-control">
+                    <label for="frutas">Frutas</label>
+                    <select name="sabor">
+                        <option value="abacaxi">Abacaxi</option>
+                        <option selected value="morango">Morango</option>
+                        <option value="banana">Banana</option>
+                    </select>                    
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Outros dados</legend>
+
+                <div class="Form-control">
+                    <label for="data">Data</label>
+                    <input type="data" name="data" id="data"/>
+                </div>
+
+                <div>
+                    <label for="idade">Idade</label>
+                    <input type="number" id="idade" name="idade" min="1" max="40"/> 
+                </div>
+
+                <div class="Form-control">
+                    <label for="horas">Horas</label>
+                    <input type="time" id="horas" name="horas"/>
+                </div>
+
+                <div class="Form-control">
+                    <label for="arquivo">Selecionar arquivo</label>
+                    <input type="file" id="arquivo" name="arquivo">
+                </div>
+
+                <div class="Form-control">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="40" rows="10"></textarea>
+                </div>            
+            </fieldset>
+
+            <div class="Form-control">
+                <button>Enviar</button>
+                <button>Limpar</button>
+            </div>
+        </form>
+                
+                
+</body>
+</html>
