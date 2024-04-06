@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    background: rgb(218, 221, 21);
+    padding: 150px;
+}
+
+.box1 {
+    background: green;
+    border: 3px solid rgb(61, 133, 61);
+    max-width: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+.box2 {
+    background: red;
+    border: 3px solid rgb(201, 23, 23);
+    max-width: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.box3 {
+    background: blue;
+    border: 3px solid rgb(2, 121, 177);
+    max-width: 250px;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.text{
+    margin-top: -150px;
+    text-align: center;
+
+}
+
+.mais{
+    margin: auto;
+}
